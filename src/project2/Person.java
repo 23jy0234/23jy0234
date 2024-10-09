@@ -5,5 +5,9 @@ public class Person {
 	private String tel;
 	private String address;
 	
+	Person(){
+		
+	}
+	
 
 }
