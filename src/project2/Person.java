@@ -5,9 +5,12 @@ public class Person {
 	private String tel;
 	private String address;
 	
-	Person(){
-		
+
+	public Person(String name,String tel,String address){
+		super();
+		this.name=name;
+		this.tel=tel;
+		this.address=address;
 	}
 	
-
 }
